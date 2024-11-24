@@ -38,7 +38,7 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('char.index') }}">Sembarang</a>
+                            <a class="nav-link" href="{{ route('char.index') }}">Sembarangs</a>
                         </li>
                         {{-- <li class="nav-item">
                             <a class="nav-link" href="/">Store</a>
