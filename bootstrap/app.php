@@ -15,8 +15,8 @@ return Application::configure(basePath: dirname(__DIR__))
             Route::middleware('web')
                 ->group(base_path('routes/auth.php'));
 
-            Route::middleware('web')
-                ->group(base_path('routes/game.php'));
+            // Route::middleware('web')
+            //     ->group(base_path('routes/game.php'));
         },
     )
     ->withMiddleware(function (Middleware $middleware) {
