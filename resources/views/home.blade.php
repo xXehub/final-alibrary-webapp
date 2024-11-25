@@ -20,7 +20,7 @@
                                                     <b>{{ config('app.name', 'A-Library') }}</b>?
                                                 </h3>
                                                 <p class="card-text">
-                                                    {{ config('app.name', 'A-Library') }} Welcome to the Library! Discover a vast world of knowledge through our extensive book collection. Find new inspiration and develop your interests. We're here to support you on your learning journey.
+                                                  Welcome to the Library! Discover a vast world of knowledge through our extensive book collection. Find new inspiration and develop your interests. We're here to support you on your learning journey.
                                                 </p>
                                             </div>
                                         </div>
