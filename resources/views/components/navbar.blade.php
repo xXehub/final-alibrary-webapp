@@ -3,7 +3,7 @@
         <nav class="navbar navbar-expand-lg">
             <div class="container">
                 <a class="navbar-brand" href="/">
-                    <img src="{{ asset('images') }}/NERD.png" alt="Bootstrap" width="40" height="40"
+                    <img src="{{ asset('images') }}/navbar.png" alt="Bootstrap" width="40" height="40"
                         style="opacity: 0.8;">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -13,6 +13,9 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-2">
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('home') }}">Home</a>
+                        </li> 
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
@@ -20,10 +23,10 @@
                             </a>
                             <ul class="dropdown-menu">
                                 <li>
-                                    <a class="dropdown-item" href="{{ route('wiki.item.index') }}">Buku</a>
+                                    <a class="dropdown-item" href="">Buku</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="{{ route('wiki.map.index') }}">Penulis</a>
+                                    <a class="dropdown-item" href="">Penulis</a>
                                 </li>
 
                             </ul>
@@ -55,8 +58,8 @@
                                 </li>
                                 <li class="nav-item">
                                     <a class="btn btn-danger" href="{{ route('login') }}" role="button">
-                                        SIGN IN
-                                        <i class="fa fa-sign-in"></i>
+                                        <b> SIGN IN </b> 
+                                        <i class="fad fa-sign-in"></i>
                                     </a>
                                 </li>
                             @endguest

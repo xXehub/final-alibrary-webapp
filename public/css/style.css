@@ -21,7 +21,7 @@ body {
 
 #carouselExample:before {
     content: " ";
-    background-image: url("../images/NERD.png");
+    background-image: url("../images/atas.png");
     background-size: 8%;
     background-repeat: no-repeat;
     background-position: center;
