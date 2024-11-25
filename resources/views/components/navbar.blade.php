@@ -25,7 +25,7 @@
                                 <li>
                                     <a class="dropdown-item" href="{{ route('wiki.map.index') }}">Penulis</a>
                                 </li>
-                            
+
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
@@ -34,12 +34,12 @@
                                 Community
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="https://s.id/AEGLE">Discord</a></li>
+                                <li><a class="dropdown-item" href="">WhatsApp</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item">
+                        {{-- <li class="nav-item">
                             <a class="nav-link" href="{{ route('char.index') }}">Sembarangs</a>
-                        </li>
+                        </li> --}}
                         {{-- <li class="nav-item">
                             <a class="nav-link" href="/">Store</a>
                         </li>
@@ -56,7 +56,7 @@
                                 <li class="nav-item">
                                     <a class="btn btn-danger" href="{{ route('login') }}" role="button">
                                         SIGN IN
-                                        <i class="fad fa-swords fa-lg ms-2"></i>
+                                        <i class="fa fa-sign-in"></i>
                                     </a>
                                 </li>
                             @endguest
